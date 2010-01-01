@@ -8,7 +8,7 @@ delta = datetime.timedelta(days=2)
 
 while start_date <= end_date:
     # print(start_date)
-    date = f"{start_date} 17:18:43 +0200"
+    date = f"{start_date} 11:18:43 +0200"
     print(date)
     os.environ['GIT_AUTHOR_DATE'] = date
     os.environ['GIT_COMMITTER_DATE'] = date
