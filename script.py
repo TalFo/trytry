@@ -4,7 +4,7 @@ import subprocess
 
 end_date = datetime.date(2010, 12, 31)
 start_date = datetime.date(2010, 1, 1)
-delta = datetime.timedelta(days=1)
+delta = datetime.timedelta(days=2)
 
 while start_date <= end_date:
     # print(start_date)
