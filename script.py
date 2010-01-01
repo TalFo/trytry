@@ -6,7 +6,7 @@ import random
 end_date = datetime.date(2010, 12, 31)
 start_date = datetime.date(2010, 1, 1)
 
-delta = datetime.timedelta(days=random.randint(1,10))
+delta = datetime.timedelta(days=random.randint(1,5))
 
 while start_date <= end_date:
     # print(start_date)
